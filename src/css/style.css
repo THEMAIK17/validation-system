@@ -28,19 +28,21 @@ header{
 
 #data{
     width: 30%;
-    height: 20rem;
+    min-height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 4rem;
+    gap: 7rem;
     border-radius: 20px;
     background-color: #ffffff;
+    padding: 3%;
 }
 
 .subtitle>h2{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
+
 
 .data_entry>label{
     cursor: pointer;
@@ -59,7 +61,7 @@ header{
 }
 
 .data_entry>button{
-    width: 20rem;
+    width: 5rem;
     height: 3vh;
     border-radius:5.5px;
     background-color: chocolate;
