@@ -16,6 +16,7 @@ body{
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    transition: background-position ease  1s;
 }
 /* MoveGradient Animation: */
 /* Shifts the background position from right to left (from 100% to 0%) */
@@ -24,8 +25,12 @@ body{
   0% {
     background-position: 100% 0;
   }
-  100% {
+  50%{
     background-position: 0% 0;
+  }
+  100% {
+    background-position: 100% 0;
+
   }
 
 }
@@ -67,7 +72,9 @@ header>h1{
     text-align: center;
 }
 
-
+.data_entry{
+    text-align: center;
+}
 .data_entry>label{
     cursor: pointer;
     transition: all 01s ease;
