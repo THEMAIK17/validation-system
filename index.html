@@ -1,40 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta mame="author" content="Armando Maikol Duran Salas" />
+    <meta name="organization" content="riwi" />
+    <meta name="description" content="this website was created for data validation, data how your name and your age, to then show you a message based on your age"/>
+    <meta name="keywords" content="system,name,age,validation" />
+    <meta name="copyright" content="@2025. the maik all rights reserved">
+    <meta name="sitedomain" content="https:/validation-system.com" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="revisit-after" content="15days" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>VALIDATION-SYSTEM</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- my title -->
     <header>
-        <h1> VALIDATION-SYSTEM </h1>
+      <h1>VALIDATION-SYSTEM</h1>
     </header>
     <main>
-        <section id="data">
-            <article class="subtitle">
-                <h2>WELCOME TO THE INTERACTIVE MESSAGING SYSTEM</h2>
-            </article>
-            <article class="data_entry">
-                <label for="name"> <strong>YOUR NAME:</strong></label>
-                <br>
-                <input type="text" name="name" id="name" placeholder="  ej: maikol" required>
-                <br>
-                <br>
-                <label for="age"> <strong>YOUR AGE:</strong></label>
-                <br>
-                <input type="text" name="age" id="age" placeholder=" ej: 23" required>
-                <br>
-                <br>
-                <button id="reset">RESET</button>
-                <button id="consult">SUBMIT</button>
-            </article>
-            
-            <p id="resultText"></p>
-            
-        </section>
+      <!-- container for main -->
+      <section id="data">
+        <!-- subtitle -->
+        <article class="subtitle">
+          <h2>WELCOME TO THE INTERACTIVE MESSAGING SYSTEM</h2>
+        </article>
+        <!-- container for data entry -->
+        <article class="data_entry">
+          <label for="name"> <strong>YOUR NAME:</strong></label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="  ej: maikol"
+            required
+          />
+          <br />
+          <br />
+          <label for="age"> <strong>YOUR AGE:</strong></label>
+          <br />
+          <input
+            type="text"
+            name="age"
+            id="age"
+            placeholder=" ej: 23"
+            required
+          />
+          <br />
+          <br />
+          <!-- button for reset or submit -->
+          <button id="reset">RESET</button>
+          <button id="consult">SUBMIT</button>
+          <p id="resultText"></p>
+        </article>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>@2025. the maik all rights reserved</p>
+    </footer>
     <script src="./src/javascript/main.js"></script>
-</body>
+  </body>
 </html>
