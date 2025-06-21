@@ -24,3 +24,9 @@ The user has to enter their name, then their age. If the user is a minor, send a
 ## Contact
 
 you can open an [issue](https://github.com/THEMAIK17/validation-system/issues) on my repository.
+
+Profile
+https://github.com/THEMAIK17
+
+website
+https://themaik17.github.io/validation-system/
